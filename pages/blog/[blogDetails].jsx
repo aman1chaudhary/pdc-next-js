@@ -4,9 +4,9 @@ import Head from 'next/head'
 import { BlogsData } from '../../data/BlogsData';
 import EmptyList from '../../components/EmptyList';
 
-const blogDetails = () => {
+const BlogDetails = () => {
     const Router = useRouter()
-    const BlogTitle = Router.query.blogDetails;
+    const BlogTitle = Router.query.BlogDetails;
     const [Blog, setBlog] = useState(null);
     useEffect(() => {
         let Blog = BlogsData.find((Blog) => Blog.BlogTitle === (BlogTitle));
@@ -66,4 +66,4 @@ const blogDetails = () => {
     )
 }
 
-export default blogDetails
+export default BlogDetails
