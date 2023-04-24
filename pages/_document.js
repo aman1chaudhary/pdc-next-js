@@ -4,8 +4,6 @@ export default function Document() {
     return (
         <Html>
             <Head>
-                <title>PDC | IIT Gandhinagar</title>
-                <meta name="description" content="Professional Development Council" />
                 <link rel="icon" href="/favicon.ico" />
                 <script
                     src="https://kit.fontawesome.com/0f83e5d3b7.js"
